@@ -11975,4 +11975,78 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+header, .navbar, .navbar-collapse{
+  justify-content: flex-end
+}  
+  .navbar-nav{
+    flex-direction: row
+}  
+    .nav-item
+      &.avatar-link{
+        margin-left: 10px
+    }  
+        .nav-link{
+          padding: 0
+        }
+
+header, .navbar, .navbar-brand, img{
+max-width: 100px;  
+}
+.navbar-nav, .nav-item, .nav-link{
+color: black;  
+text-decoration: none; 
+}
+.bi{
+font-size: 1.5rem; 
+}
+.avatar-link, img.avatar{
+width: 40px;  
+height: 40px;
+border-radius: 50%; 
+}
+
+.viola{ 
+padding: 50px 0 80px 0;}
+
+.headline{
+padding: 20px;  
+text-align: center;
+}
+h1{
+font-size: 2rem  
+}
+p{
+font-size: 1rem  
+}
+
+.heroimage img{
+max-width: 100%  
+}
+
+.schede{
+padding: 50px 0  
+}
+.row{
+justify-content: center  
+}
+h3{
+font-size: 1.5rem  
+}
+h4{ 
+   font-size: 1rem
+}  
+
+.mobile, .desktop{
+border-radius: 8px;  
+margin-bottom: 20px; 
+}
+.schedaImg{
+width: 100%;  
+border-radius: 8px;  
+}
+@media screen (max-width: 767px) {
+.desktop
+display: none;
+
+} /*# sourceMappingURL=main.css.map */
